@@ -1,0 +1,300 @@
+html {
+    font-size: 16px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+}
+.purchase-btn {
+    padding: 0.7rem 1.5rem;
+    border: 0.1rem solid #252525;
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+h3 {
+    width: 25%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+h4 {
+    font-size: 1.1rem;
+    font-weight:normal;
+}
+
+#envato-market {
+    height: 5vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    height: 100%;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo > img {
+    height: 80%;
+}
+#logo > p  > span {
+    font-weight: bold;
+}
+
+#envato-market > a {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    width: fit-content;
+    margin: 0 1rem;
+}
+
+
+header {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > nav {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+header > nav > a {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+header > div:nth-of-type(1) {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+header > div:nth-of-type(1) > p {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+header > div:nth-of-type(2) {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#hero {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#hero > p {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+#hero > h1 {
+    font-size: 3rem;
+}
+#hero > h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+#layouts {
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+#number {
+    font-size: 4rem;
+    font-weight: bold;
+}
+#layouts > p:nth-of-type(2) {
+    width: 15%;
+    font-size: 1rem;
+    text-align: center;
+}
+
+#layouts > div {
+    width: 90%;
+    height: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+#layouts > div > div {
+    width: 30%;
+    height: 20%;
+}
+
+
+#options {
+    position: relative;
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+#options > p {
+    width: 35%;
+    text-align: center;
+}
+#options > img {
+    position: absolute;
+    bottom: 0;
+}
+
+
+#examples {
+    width: 80%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#examples h3 {
+    width: 60%;
+    text-align: left;
+}
+#examples p {
+    width: 60%;
+}
+
+#demo {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#demo > div {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+#woocomm {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#woocom > div {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#page-builder {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+#page-builder > p {
+    width: 35%;
+    text-align: center;
+}
+
+
+#predefined-pages {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+#predefined-pages > p {
+    width: 20%;
+    text-align: center;
+}
+
+
+#wordpress-plugins {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+#wordpress-plugins > p {
+    width: 25%;
+}
+
+#wordpress-plugins > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+footer {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+footer > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+footer > div > h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+

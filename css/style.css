@@ -300,6 +300,13 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url('/assets/demo-back.jpg');
+    background-position: center;
+    background-repeat: no-repeat;     
+    background-size: cover;
+    margin: 10vh 10%;
+    border-radius: 1rem;
+    gap: 1rem;
 }
 #examples h3 {
     width: 60%;
@@ -307,30 +314,49 @@ main {
 }
 #examples p {
     width: 60%;
+    color: #6d6d6d;
+    font-size: 1rem;
 }
 
 #demo {
-    width: 80%;
+    width: 60%;
+    height: 40%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 #demo > div {
-    width: 40%;
+    width: 45%;
     display: flex;
     flex-direction: column;
+    gap: 1rem;
+}
+#demo > img {
+    width: 45%;
 }
 
 #woocomm {
-    width: 80%;
+    width: 60%;
+    height: 40%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
-#woocom > div {
-    width: 40%;
+#woo-imgs {
+    width: 45%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+}
+#woo-imgs > img {
+    width: 45%;
+}
+#woocomm > div:nth-of-type(2) {
+    width: 45%;
     display: flex;
     flex-direction: column;
+    gap: 1rem;
 }
 
 

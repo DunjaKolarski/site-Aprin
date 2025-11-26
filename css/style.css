@@ -478,11 +478,26 @@ main {
 
 footer {
     width: 100%;
-    height: 50vh;
+    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 4rem;
+    background-image: url('/assets/footer-back.jpg');
+    background-position: center;
+    background-repeat: no-repeat;     
+    background-size: cover
+}
+
+footer > img {
+    width: 10%;
+}
+footer > img:nth-of-type(1) {
+    transform: rotate(5deg);
+}
+footer > img:nth-of-type(2) {
+    transform: rotate(-5deg);
+    margin-bottom: 2rem;
 }
 
 footer > div {
@@ -493,7 +508,15 @@ footer > div {
     gap: 1rem;
 }
 footer > div > h2 {
+    width: 70%;
     font-size: 2rem;
+    text-align: center;
+    color: #252525;
     margin-bottom: 2rem;
+}
+footer > div > a {
+    background-color: rgb(255, 64, 112);
+    border: none;
+    color: #ffffff;
 }
 

@@ -386,15 +386,52 @@ main {
     width: 100%;
     height: 70vh;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    gap: 1rem;
+    background-image: url('/assets/predef-back.jpg');
+    background-position: center;
+    background-repeat: no-repeat;     
+    background-size: cover;
+}
+#predefined-pages > h4 {
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+}
+#predefined-pages > h3 {
+    width: 100%;
+    color: #ffffff;
 }
 #predefined-pages > p {
     width: 20%;
     text-align: center;
+    color: #ffffff;
+    font-size: 1rem;
 }
+
+#predefined-pages > div {
+    width: 100%;
+    height: auto;
+    align-self: end;
+    display: flex;
+    flex-direction: column;
+}
+#predefined-pages > div > div > img {
+    width: 10%;
+}
+#predefined-pages > div > div:nth-of-type(1) {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 2rem;
+}
+#predefined-pages > div > div:nth-of-type(2) {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 2rem;
+}
+
 
 
 #wordpress-plugins {

@@ -714,3 +714,177 @@ footer > div > a > i {
         gap: 1rem;
     }
 }
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    h3 {
+        width: 25%;
+    }
+
+    #envato-market {
+        height: 10vh;
+    }
+
+    header {
+        height: 12vh;
+    }
+
+    #hero {
+        height: 90vh;
+    }
+    #purple-t,  #blue-t {
+        width: 18%;
+    }
+    #pink-t {
+        width: 20%;
+    }
+    #orange-t,  #green-t {
+        width: 17%;
+    }
+
+    #layouts {
+        height: 150vh;
+    }
+    #layouts > p:nth-of-type(2){
+        width: 20%;
+    }
+    #l-row-first img {
+        width: 70%;
+    }
+    #l-row-sec img {
+        width: 50%;
+    }
+
+    #options {
+        height: 120vh;
+    }
+    #options > p {
+        width: 40%;
+    }
+
+    #examples {
+        height: 130vh;
+    }
+
+    #page-builder {
+        height: 130vh;
+    }
+    #page-builder > p {
+        width: 40%;
+    }
+
+    #predefined-pages {
+        height: 110vh;
+    }
+    #predefined-pages > p {
+        width: 25%;
+    }
+
+    #wordpress-plugins {
+        height: 100vh;
+    }
+    #wordpress-plugins > p {
+        width: 30%;
+    }
+
+    footer {
+        height: 110vh;
+    }
+}
+
+
+@media only screen and (max-width: 767px) and (orientation: landscape) { 
+    h3 {
+        width: 40%;
+    }
+
+    #envato-market {
+        height: 10vh;
+    }
+
+    header {
+        height: 12vh;
+    }
+
+    #hero {
+        height: 90vh;
+    }
+    #purple-t,  #blue-t {
+        width: 18%;
+    }
+    #pink-t {
+        width: 20%;
+    }
+    #orange-t,  #green-t {
+        width: 17%;
+    }
+
+    #layouts {
+        height: 120vh;
+    }
+    #layouts > p:nth-of-type(2){
+        width: 25%;
+    }
+    #l-row-first img {
+        width: 70%;
+    }
+    #l-row-sec img {
+        width: 50%;
+    }
+
+    #options {
+        height: 90vh;
+    }
+    #options > p {
+        width: 50%;
+    }
+
+    #examples {
+        height: 120vh;
+    }
+    #examples h3 {
+        width: 90%;
+    }
+    #examples p {
+        width: 90%;
+    }
+    #demo, #woocomm {
+        height: 40%;
+        flex-direction: row;
+    }
+    #demo > div, #woocomm > div {
+        width: 45%;
+    }
+    #demo > img, #woocomm > img {
+        width: 45%;
+    }
+    #woocomm > div:nth-of-type(2) {
+        width: 45%;
+        align-self: center;
+    }
+
+    #page-builder {
+        height: 110vh;
+    }
+    #page-builder > p {
+        width: 50%;
+    }
+
+    #predefined-pages {
+        height: 80vh;
+    }
+    #predefined-pages > p {
+        width: 40%;
+    }
+
+    #wordpress-plugins {
+        height: 85vh;
+    }
+    #wordpress-plugins > p {
+        width: 45%;
+    }
+
+    footer {
+        height: 90vh;
+    }
+}
